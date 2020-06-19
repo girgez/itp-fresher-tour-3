@@ -3,6 +3,10 @@
 
 Author: longnh
 Description: practice
+dqwdqwdqwdqwdqwdqwdqw
+dqwdqwdqwdqwdwd<<<<<<< HEAD
+Author: nq2
+Description: nq2
 
 
 
@@ -21,3 +25,7 @@ Description: practice
 
 
 this is a random text
+=======
+
+
+>>>>>>> nq2
