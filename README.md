@@ -1,7 +1,7 @@
 # itp-fresher-tour-3
 
-Author: girgez
+Author: Vien
 
-Description: Anttizen sagb
+Description: VIENEX
 
 datlt edited
