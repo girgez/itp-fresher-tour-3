@@ -1,8 +1,8 @@
 # itp-fresher-tour-3
 
 <<<<<<< HEAD
-Author: longnh
-Description: practice
+Author: nq2
+Description: nq2
 
 
 
