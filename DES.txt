@@ -1,0 +1,52 @@
+plantext là 0,key là 1
+P=0*64(bit)
+K=1*64(bit)
+Chia plantext thành L0 và R0
+L0=0*32 ; R0=0*32=L1 (theo ct)
+vd: L16=R15;L15=R14 ...
+Tìm R1 (bằng cách Xor f với L0)??
+* TÌM K1 CHO R1 ỨNG VỚI K;
+ Bước 1: Lấy K 64bit => K 56bit thông qua bảng (PC-1)   //sẽ lược bỏ các vị bit thứ 8,16,24,32,40,48,56,64 rồi hóan vị 
+ => K=1*56;
+ {
+ Bước 2:Chia thành C0=1*28 và D0=1*28
+ -Dịch vòng trái 1 bit(R1,2,9,16),còn lại 2 bit
+ (Vì đều là bit 1 nên k cần dịch)
+ Bước 3:Sau bước dịch thu dc C1 và D1=> ghép lại thành chuỗi 56 bit
+ - Tiếp tục thông qua Bảng (PC-2(48 bit) ta được K1 là 48 bit;
+ }(vì đều là bit 1 nên lược bỏ cái trong {} cũng được)
+ Tìm được K1=1*48;// có thể hiểu là K lúc đầu là 64bit=>56 bit=>48 bit;
+ Nếu K lúc đầu là 0*64 thì k1 là 0*48 (vậy đó)
+ *TÌM F;.
+ BƯỚC 1:Chuyển R0 32(bit) thành 48(bit) bằng thông qua bảng E
+=> R0=0*48 bit
+ BƯỚC 2: Xor R0(đã được chuyển đổi thông qua bảng E) với K1 
+ Cùng bit là 0;khác bit là 1
+ Ở đây là 1*48
+ BƯỚC 3:Tách kết quả Bước 2 thành 8 chuỗi 6(bit)
+ S1=111111;
+ .....
+ S8=1 1111 1; 
+ BƯỚC 3: Lấy từng chuỗi 6bit xử lý thành chuỗi 4bit thông qua bảng S-Boxes
+ S1 ứng với S-box1;
+ S8...S-box 8;
+ Cách lấy là bit đầu và cuối là row; bit giữa là col
+ vậy ta có: S1=111111=> S1=13=1101
+			S2=111111=> S2=9=1001
+			S3=111111=> S3=12=1100
+			S4=111111=> S4=14=1110
+			S5=111111=> S5=3=0011
+			S6=111111=> S6=13=1101
+			S7=111111=> S7=12=1100
+			S8=111111=> S8=11=1011
+	Giá trị 32 bit thu được từ các chuyển đổi với hàm lựa chọn S sẽ được đánh số từ 1 đến 32 theo thứ tự từ trái qua phải,trên xuống dưới
+ghi lại kq là  1101 1001
+			   1100 1110
+			   0011 1101
+			   1100 1011
+BƯỚC 4:Hoán vị kết quả của Bước 3 thông qua bảng P ta sẽ được kết quả của hàm f cần tìm	
+		  f=	0011 1000 1101 1011 1111 1001 1100 1011 (1)
+*** đã có f và L0 tìm được R1
+Xor f với L0=	0000 0000 0000 0000 0000 0000 0000 0000	(2)
+Xor từng bit cùng là 0 khác là 1
+tìm được  R1=	0011 1000 1101 1011 1111 1001 1100 1011	   

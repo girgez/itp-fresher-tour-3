@@ -1,4 +1,30 @@
 # itp-fresher-tour-3
+# itp-fresher-tour-3
 
-Author: datlt
-Description: just for test
+Author: longnh
+Description: practice
+dqwdqwdqwdqwdqwdqwdqw
+Author: nq2
+Description: nq2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+this is a random text
+=======
+
+
+>>>>>>> nq2
