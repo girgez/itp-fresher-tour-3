@@ -1,6 +1,6 @@
 # itp-fresher-tour-3
 dqwdqwdqwdqwdqwdqwdqw
-<<<<<<< HEAD
+dqwdqwdqwdqwdwd<<<<<<< HEAD
 Author: nq2
 Description: nq2
 
