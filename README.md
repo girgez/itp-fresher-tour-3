@@ -1,7 +1,9 @@
 # itp-fresher-tour-3
 
-Author: girgez
+Author: longnh
 
-Description: Anttizen sagb
+Description: step 3 in practice
 
 datlt edited
+
+longnh edited
