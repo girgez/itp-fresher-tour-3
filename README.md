@@ -1,6 +1,6 @@
 # itp-fresher-tour-3
 
-Author: girgez
+Author: hai
 
 Description: Anttizen sagb
 
