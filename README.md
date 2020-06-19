@@ -1,10 +1,7 @@
 # itp-fresher-tour-3
 
-Author: dalt
+Author: girgez
 
-Description: Anttizen
+Description: Anttizen sagb
 
-
-Author: Hao
-
-Description: Chao anh 
+datlt edited
