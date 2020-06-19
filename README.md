@@ -20,8 +20,3 @@ longnh edited
 
 
 
-
-
-
-this a random text
->>>>>>> 0e17967dac4dacee536ecf26ff02ef1cdd1bc73a
