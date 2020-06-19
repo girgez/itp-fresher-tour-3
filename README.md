@@ -1,7 +1,7 @@
 # itp-fresher-tour-3
 
-Author: girgez
+Author: girgezasja
 
-Description: Anttizen sagb
+Description: Anttizen sagbamsnda
 
 datlt edited
