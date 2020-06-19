@@ -1,3 +1,4 @@
 # itp-fresher-tour-3
 
-First line description
+Author: datlt
+Description: just for test
